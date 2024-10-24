@@ -1,0 +1,374 @@
+.app-background {
+    background: linear-gradient(to bottom, #ffffff, #e0f7ff); /* 윗부분 하얀색, 아래로 갈수록 연한 파란색 */
+    min-height: 100vh;
+}
+::placeholder {
+    font-family: "Inter";
+    font-size: 20px;
+    color:#a0a0a0;
+    
+  }
+
+.no-border {
+    border: none; /* fieldset 테두리 제거 */
+    margin: 30px 0 0 0; /* 가운데 정렬 */
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+@font-face {
+    font-family: Inter;
+    src: url("../../public/fonts/Inter_18pt-Regular.ttf");
+}
+.register-text {
+    text-align: center; /* legend 텍스트 가운데 정렬 */
+    font-size: 24px;
+    font-family: "Inter";
+    padding-bottom: 18px;
+}
+.register-mainpage{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    height:calc(100vh-74px) ;
+    /* padding-bottom: 99px; */
+    
+}
+.register-form{
+    width: 764px;
+    height: 858px;
+    background-color: #ffffff;  
+    border-radius: 25px; 
+    box-shadow: 0 0 8.2px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@font-face {
+    font-family: Pretendard ;
+    src: url("../../public/fonts/PretendardVariable.ttf");
+}
+.register-title{
+    padding: 0 0 33px 0;
+    font-size: 48px;
+    font-family: "Pretendard";
+}
+.register-input{
+    display: block;
+    margin: 17px 0;
+    width: 692px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: #fcfcfc;
+    border: 3px solid #e0e0e0;
+    padding-left: 25px;
+    font-size: 20px;
+    font-family: "Inter";
+    
+}
+.email-container{
+    position: relative;
+    display: flex;
+}
+.email-checkbutton{
+    position: absolute;
+    width: 198px;
+    height: 54px;
+    top: 28px;
+    right: 12px;
+    border-radius: 100px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Inter";
+    cursor: pointer;
+}
+
+.pwd-container{
+    position: relative;
+    display: flex;
+}
+.pwd-checkbutton{
+    position: absolute;
+    width: 198px;
+    height: 54px;
+    top: 28px;
+    right: 12px;
+    border-radius: 100px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Inter";
+    cursor: pointer;
+}
+.input-container {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    width: 723.8px;
+}
+@font-face {
+    font-family: "Inter_bold";
+    src: url("../../public/fonts/Inter_24pt-SemiBold.ttf");
+}
+.input-label {
+    position: absolute;
+    top: -15px; /* 입력 필드 위로 위치 조정 */
+    left: 20px; /* 입력 필드 왼쪽으로 위치 조정 */
+    background: white; /* 배경 설정 */
+    padding: 0 5px;
+    font-size: 20px;
+    font-family: "Inter_bold";
+}
+.name-input{
+    display: block;
+    margin: 17px 33px 17px 0;
+    width: 272px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: #fcfcfc;
+    border: 3px solid #e0e0e0;
+    padding-left: 25px;
+    font-size: 20px;
+    font-family: "Inter_bold";
+
+}
+.phone-input{
+    display: block;
+    margin: 17px 0;
+    width: 354px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: #fcfcfc;
+    border: 3px solid #e0e0e0;
+    padding-left: 25px;
+    font-size: 20px;
+    font-family: "Inter";
+}
+.phone-label{
+    position: absolute;
+    top: -15px; /* 입력 필드 위로 위치 조정 */
+    left: 360px; /* 입력 필드 왼쪽으로 위치 조정 */
+    background: white; /* 배경 설정 */
+    padding: 0 5px;
+    font-size: 20px;
+    font-family: "Inter";
+}
+.birth-input{
+    display: block;
+    margin: 17px 109px 17px 0;
+    width: 300px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: #fcfcfc;
+    border: 3px solid #e0e0e0;
+    padding-left: 25px;
+    font-size: 20px;
+    font-family: "Inter_bold";
+}
+.nickname-label{
+    position: absolute;
+    top: -15px; /* 입력 필드 위로 위치 조정 */
+    left: 445px; /* 입력 필드 왼쪽으로 위치 조정 */
+    background: white; /* 배경 설정 */
+    padding: 0 5px;
+    font-size: 20px;
+    font-family: "Inter";
+}
+.nickname-input{
+    display: block;
+    margin: 17px 0;
+    width: 285px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: #fcfcfc;
+    border: 3px solid #e0e0e0;
+    padding-left: 25px;
+    font-size: 20px;
+    font-family: "Inter";
+}
+.register-button{
+    display: block;
+    margin: 28px 0;
+    width: 524px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: #4278e4;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 0 10px 0 10px;
+    border: none;
+    cursor: pointer;
+    font-family: "Inter";
+}
+
+/* 데스크탑 크기 */
+
+
+/* 태블릿 크기 (768px - 1024px) */
+@media screen and (max-width: 1024px) {
+    .register-mainpage{
+        height: 90vh;
+        
+    }
+    .register-form {
+        width: 90%;
+        height:90%;
+        text-align: center;
+        align-items: center;
+        font-size: 12px;
+    }
+    .no-border{
+        width: 50%;
+    }
+    .email-container{
+        width: 90%;
+    }
+    .email-checkbutton{
+        width: 198px;
+        height: 54px;
+        top: 18px;
+        right: 60px;
+        font-size: 18;
+    }
+
+    .pwd-container{
+        width: 90%;
+    }
+    .pwd-checkbutton{
+        width: 198px;
+        height: 54px;
+        top: 18px;
+        right: 60px;
+        font-size: 18;
+    }
+    .register-input{
+        
+        width: 90%;
+        height: 60px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+   .input-container input{
+    width: 100%;
+    height: 60px;
+   }
+
+    .register-button{
+        width:50%;
+        height: 45px;
+        margin: 18px;
+    
+    }
+   
+}
+
+/* 모바일 크기 (768px 이하) */
+@media screen and (max-width: 768px) {
+    .register-mainpage{
+        height: 90vh;
+        
+    }
+    .register-form {
+        width: 90%;
+        height:90%;
+        text-align: center;
+        align-items: center;
+        font-size: 12px;
+    }
+    .no-border{
+        width: 50%;
+    }
+    .email-container{
+        width: 90%;
+    }
+    .email-checkbutton{
+        width: 198px;
+        height: 54px;
+        top: 18px;
+        right: 60px;
+        font-size: 18;
+    }
+
+    .pwd-container{
+        width: 90%;
+    }
+    .pwd-checkbutton{
+        width: 198px;
+        height: 54px;
+        top: 18px;
+        right: 60px;
+        font-size: 18;
+    }
+    .register-input{
+        
+        width: 60%;
+        height: 60px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+   .input-container input{
+    width: 40%;
+    height: 60px;
+   }
+
+    .register-button{
+        width:50%;
+        height: 45px;
+        margin: 18px;
+    
+    }
+   
+}
+
+
+@media screen and (max-width: 480px) {
+    .register-mainpage{
+        height: 90vh;
+        
+    }
+    .register-form {
+        width: 90%;
+        height:90%;
+        text-align: center;
+        align-items: center;
+        font-size: 12px;
+    }
+    .no-border{
+        width: 50%;
+    }
+    .email-container{
+        width: 90%;
+    }
+    
+
+    .pwd-container{
+        width: 90%;
+    }
+  
+    .register-input{
+        
+        width: 60%;
+        height: 60px;
+        font-size: 15px;
+        padding-left: 10px;
+    }
+    
+   .input-container input{
+    width: 50%;
+    height: 60px;
+   }
+
+    .register-button{
+        width:50%;
+        height: 45px;
+        margin: 18px;
+    
+    }
+
+}
+
+  
