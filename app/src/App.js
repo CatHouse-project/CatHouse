@@ -10,8 +10,8 @@ import RegisterPage from './page/RegisterPage';
 function App() {
   return (
     <div>
-      <RegisterHeader/>
-      <RegisterPage/>
+      <MainHeader/>
+      <MainPage/>
     </div>
   );
 }
