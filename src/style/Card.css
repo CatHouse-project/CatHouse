@@ -1,0 +1,267 @@
+.matching-card {
+    background-color: #ffffff;
+    height: 1080px;
+    width: 1920px;
+  }
+  
+  .matching-card .overlap {
+    background: linear-gradient(
+      180deg,
+      rgb(241, 241, 241) 0%,
+      rgb(216, 229, 240) 100%
+    );
+    height: 1080px;
+    position: relative;
+  }
+  
+  .matching-card .text-wrapper {
+    color: #000000;
+    font-family: "Pretendard-Medium", Helvetica;
+    font-size: 48px;
+    font-weight: 500;
+    left: 851px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 104px;
+    white-space: nowrap;
+  }
+  
+  .matching-card .group {
+    height: 258px;
+    left: 43px;
+    position: absolute;
+    top: 279px;
+    width: 449px;
+  }
+  
+  .matching-card .overlap-group {
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0px 0px 8.2px #00000040;
+    height: 258px;
+    position: relative;
+    width: 439px;
+  }
+  
+  .matching-card .div {
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 38px;
+  }
+  
+  .matching-card .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 85px;
+  }
+  
+  .matching-card .text-wrapper-3 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 346px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 85px;
+  }
+  
+  .matching-card .text-wrapper-4 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 24px;
+    font-weight: 600;
+    left: 310px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: right;
+    top: 38px;
+  }
+  
+  .matching-card .div-wrapper {
+    background-color: #4177e3;
+    border-radius: 100px;
+    height: 65px;
+    left: 40px;
+    position: absolute;
+    top: 156px;
+    width: 359px;
+  }
+  
+  .matching-card .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 112px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 18px;
+  }
+  
+  .matching-card .overlap-wrapper {
+    height: 258px;
+    left: 507px;
+    position: absolute;
+    top: 279px;
+    width: 449px;
+  }
+  
+  .matching-card .overlap-group-wrapper {
+    height: 258px;
+    left: 971px;
+    position: absolute;
+    top: 279px;
+    width: 449px;
+  }
+  .matching-card .group-2 {
+    height: 258px;
+    left: 1435px;
+    position: absolute;
+    top: 279px;
+    width: 449px;
+  }
+  
+  .matching-card .group-3 {
+    height: 258px;
+    left: 45px;
+    position: absolute;
+    top: 607px;
+    width: 449px;
+  }
+  
+  .matching-card .group-4 {
+    height: 258px;
+    left: 509px;
+    position: absolute;
+    top: 607px;
+    width: 449px;
+  }
+  
+  .matching-card .group-5 {
+    height: 258px;
+    left: 973px;
+    position: absolute;
+    top: 607px;
+    width: 449px;
+  }
+  
+  .matching-card .group-6 {
+    height: 258px;
+    left: 1437px;
+    position: absolute;
+    top: 607px;
+    width: 449px;
+  }
+  
+  .matching-card .overlap-2 {
+    background-color: #000000;
+    border-radius: 100px;
+    height: 52px;
+    left: 1662px;
+    position: absolute;
+    top: 992px;
+    width: 214px;
+  }
+  
+  .matching-card .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 20px;
+    font-weight: 500;
+    left: 35px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 13px;
+    white-space: nowrap;
+    width: 143px;
+  }
+  
+  .matching-card .p {
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 24px;
+    font-weight: 500;
+    left: 654px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    top: 180px;
+  }
+  
+  .matching-card .navbar {
+    height: 33px;
+    left: 40px;
+    position: absolute;
+    top: 30px;
+    width: 1833px;
+  }
+  
+  .matching-card .text-wrapper-7 {
+    color: #000000;
+    font-family: "AppleSDGothicNeoB00-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .matching-card .text-wrapper-8 {
+    color: #000000;
+    font-family: "AppleSDGothicNeoB00-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 1578px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .matching-card .text-wrapper-9 {
+    color: #000000;
+    font-family: "AppleSDGothicNeoB00-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 1724px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  .matching-card .text-wrapper-10 {
+    color: #000000;
+    font-family: "AppleSDGothicNeoB00-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    left: 106px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  
