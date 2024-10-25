@@ -1,0 +1,183 @@
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: AppleGodic;
+    src: url("../../public/fonts/AppleSDGothicNeoB00.ttf");
+}
+@font-face {
+    font-family: Inter;
+    src: url("../../public/fonts/Inter_28pt-Bold.ttf");
+}
+@font-face {
+    font-family: Pretendard ;
+    src: url("../../public/fonts/PretendardVariable.ttf");
+}
+  .header-button{
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    font-family: "AppleGodic";
+    font-size: 24px;
+}
+.header-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px 10px 40px;
+    box-sizing: border-box;
+}
+.header-gap{
+    gap: 3vw;
+    display: flex;
+}
+.background-color{
+    /* background: linear-gradient(to bottom, #ffffff, #e0f7ff);  */
+      background: linear-gradient(
+      180deg,
+      rgb(241, 241, 241) 0%,
+      rgb(216, 229, 240) 100%
+    );
+    
+    display: flex;
+    flex-direction: column;
+    gap: 86px;
+    padding-bottom: 73px;
+}
+
+.profile-box{
+    width: 632px;
+    height: 858px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 0 8.2px rgba(0,0,0,0.25);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.personal-box{
+    width: 791px;
+    height: 680px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 0 8.2px rgba(0,0,0,0.25);
+}
+.history-box{
+    width: 269px;
+    height: 680px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 0 8.2px rgba(0,0,0,0.25);
+}
+.school-box{
+    width: 321px;
+    height: 154px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 0 8.2px rgba(0,0,0,0.25);
+}
+.keyword-box{
+    width: 735px;
+    height: 154px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    box-shadow: 0 0 8.2px rgba(0,0,0,0.25);
+}
+.page-frame{
+    display: flex;
+    flex-direction: row;
+    padding-left: 89px;
+    gap: 24px;
+}
+.large-frame{
+    display: flex;
+    flex-direction: column;
+    gap: 19px; 
+
+}
+.second-frame{
+    display: flex;
+    gap:24px ;
+}
+.third-frame{
+    display: flex;
+    gap: 24px;
+}
+.myprofile-text{
+    font-family: "AppleGodic";
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 42px;
+    padding-bottom: 53px;
+}
+.circle{
+    width: 332px;
+    height: 332px;
+    border: 1.5px solid #9c9c9c;
+    border-radius: 100%;
+    
+
+}
+.img-position{
+    padding-top: 142px;
+}
+.nickname-container{
+    position: relative; 
+    /* display: flex; */
+    padding-top: 93px;
+    padding-bottom: 66px;
+  
+}
+input::placeholder{
+    font-family: "Inter";
+    color: #a0a0a0;
+    font-size: 20px;
+    font-weight: 400;
+}
+.nickname-input{
+    background-color: #f4f4f4;
+    border: 1.5px soild #b8b8b8;
+    width: 549px;
+    height: 76px;
+    border-radius: 100px;
+    
+}
+.change-nickname-button{
+    position: absolute;
+    right: 9px;
+    top: 122px;
+     width: 160px;
+     height: 54px;
+     border-radius: 100px;
+     background-color: #000000;
+     color: #ffffff;
+     font-family: "Inter";
+     font-weight: 400;
+     font-size: 20px;
+}
+.nickname-text{
+    position: absolute;
+    left: 26px;
+    top: 62px;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 24px;
+
+}
+.change-complete-button{
+    width: 198px;
+    height: 54px;
+    border-radius: 100px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Inter";
+    font-weight: 400;
+}
