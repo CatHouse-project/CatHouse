@@ -13,12 +13,15 @@ import { Loading } from './page/Loading';
 import { LoadingSuccess } from './page/LoadingSuccess'; 
 import { Card } from './page/Card'; 
 import { MatchingList } from './page/MatchingList'; 
+import { SignUp } from './page/SignUp';
+import SignComplete from './page/SignComplete';
+import Profile from './page/Profile';
 
 function App() {
   return (
     <Router>
       <div>
-        <Routes>
+        {/* <Routes>
           <Route path="/" element={<MainHeader />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
@@ -28,7 +31,10 @@ function App() {
           <Route path="/loading-success" element={<LoadingSuccess />} />
           <Route path="/card" element={<Card />} />
           <Route path="/matching-list" element={<MatchingList />} />
-        </Routes>
+        </Routes> */}
+        {/* <SignUp/> */}
+        {/* <SignComplete/> */}
+        <Profile/>
       </div>
     </Router>
   );
