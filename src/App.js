@@ -23,7 +23,7 @@ function App() {
   return (
     <Router>
       <div>
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<MainHeader />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
@@ -33,10 +33,7 @@ function App() {
           <Route path="/loading-success" element={<LoadingSuccess />} />
           <Route path="/card" element={<Card />} />
           <Route path="/matching-list" element={<MatchingList />} />
-        </Routes> */}
-        {/* <SignComplete/> */}
-        {/* <Profile/> */}
-        <MyHistoryPage/>
+        </Routes>
       </div>
     </Router>
   );
