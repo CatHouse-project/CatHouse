@@ -16,6 +16,7 @@ import { MatchingList } from './page/MatchingList';
 import { SignUp } from './page/SignUp';
 import SignComplete from './page/SignComplete';
 import Profile from './page/Profile';
+import { Select } from './page/Select';
 
 function App() {
   return (
@@ -30,11 +31,14 @@ function App() {
           <Route path="/loading" element={<Loading />} />
           <Route path="/loading-success" element={<LoadingSuccess />} />
           <Route path="/card" element={<Card />} />
+          <Profile/>
           <Route path="/matching-list" element={<MatchingList />} />
         </Routes> */}
         {/* <SignUp/> */}
         {/* <SignComplete/> */}
-        <Profile/>
+
+        <Select/>
+        
       </div>
     </Router>
   );
