@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../style/MatchingQSubmit.css";
 import Navbar from '../components/Navbar';
+import AfterLoginNavbar from "../components/AfterLoginNavbar";
 
 export const MatchingQSubmit = () => {
   const [selectedOption, setSelectedOption] = useState({});
@@ -13,7 +14,7 @@ export const MatchingQSubmit = () => {
   };
 
   const questions = [
-    { id: "question1", text: "휴지, 청소도구같은 공용용품은 어떻게 구매할까요?", options: "각자 구매하자, 같이 구매하자" },
+    { id: "question1", text: "휴지, 청소도구같은 공용용품은 어떻게 구매할까요?", options: "각자 구매, 같이 구매" },
     { id: "question2", text: "청소는 얼마나 자주하나요?", options: "일주일에 한번, 한달에 한번, 가끔 필요할때마다(한달이상)" },
     { id: "question3", text: "나의 생활패턴은?", options: "아침형, 저녁형" },
     { id: "question4", text: "나의 성격은?", options: "외향형, 내향형" },
@@ -71,7 +72,7 @@ export const MatchingQSubmit = () => {
             </div>
           ))}
         </div>
-        <Navbar />
+        <AfterLoginNavbar />
       </div>
     </div>
   );

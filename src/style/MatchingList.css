@@ -1,7 +1,8 @@
 .matching-list {
     background-color: #ffffff;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    /* 여기서 flex-direction 원래 row였는데 Navbar추가하느라 수정했습니다 혹시 문제생기시면 참고해주세요 */
     justify-content: center;
     width: 100%;
   }

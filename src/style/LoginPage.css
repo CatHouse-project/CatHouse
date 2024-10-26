@@ -23,6 +23,8 @@
     font-family: "Inter";
 }
 .login-mainpage{
+    background: linear-gradient(to bottom, #ffffff, #e0f7ff); /* 윗부분 하얀색, 아래로 갈수록 연한 파란색 */
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     text-align: center;

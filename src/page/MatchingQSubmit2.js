@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../style/MatchingQSubmit2.css";
+import AfterLoginNavbar from "../components/AfterLoginNavbar";
 
 export const MatchingQSubmit2 = () => {
   // 각 질문의 답변 선택을 위한 상태
@@ -189,15 +190,7 @@ export const MatchingQSubmit2 = () => {
           <div className="rectangle-2-1" />
         </div>
 
-        <div className="navbar-2">
-          <div className="text-wrapper-12-2">HOME</div>
-
-          <div className="text-wrapper-13-2">LOGOUT</div>
-
-          <div className="text-wrapper-14-2">MY PAGE</div>
-
-          <div className="text-wrapper-15-2">MENU</div>
-        </div>
+        <AfterLoginNavbar/>
       </div>
     </div>
   );

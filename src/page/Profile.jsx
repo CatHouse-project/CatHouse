@@ -1,21 +1,16 @@
 import React from 'react';
 import "../style/Profile.css";
 import vector from "../images/Vector.png";
+import AfterLoginNavbar from '../components/AfterLoginNavbar';
+import { useNavigate } from 'react-router-dom';
 const Profile = () => {
+    const navigate = useNavigate();
+    const HandleButtonToHistory=()=>{
+        navigate('/myhistory');
+    }
     return (
         <div className='background-color'>
-            {/* 맨위 기본 버튼들 */} 
-            <div className='header-style'>
-                    <div className='header-gap'>
-                        <button className='header-button'>Home</button>
-                        <button className='header-button'>MENU</button>
-                    </div>
-                    <div className='header-gap'>
-                        <button className='header-button'>LOGOUT</button>
-                        <button className='header-button'>MY PAGE</button>
-                    </div>
-            </div>
-            {/* 밑에 화면들 구성 */}
+            <AfterLoginNavbar/>
             <div className='page-frame'>
                 <div className='profile-box'>
                     <span className='myprofile-text'>내 프로필</span>
@@ -55,7 +50,7 @@ const Profile = () => {
                             <span className='profile-myactive-text'>내 활동</span>
                             <span className='profile-match-text'>룸메이트 매칭</span>
                             <span className='profile-match-count'>3번</span>
-                            <button className='show-history-button'>매칭 히스토리<br/>조회</button>
+                            <button className='show-history-button' onClick={HandleButtonToHistory}>매칭 히스토리<br/>조회</button>
                         </div>
                     </div>
             </div>

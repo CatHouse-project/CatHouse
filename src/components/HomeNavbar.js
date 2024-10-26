@@ -1,18 +1,19 @@
 import React from 'react';
 import '../style/Navbar.css';
 import { Link } from 'react-router-dom'; 
-const Navbar = () => {
+const HomeNavbar = () => {
     return (
         <div className='navbar-style'>
            <div className='navbar-gap'>
-                <Link to="/" className='navbar-button'>Home</Link>
+                <div className='navbar-button'>Home</div>
                 <div className='navbar-button'>MENU</div>
             </div>
             <div className='navbar-gap'>
-                <div to="/profile" className='navbar-button'>MY PAGE</div>
+                <Link to="/LOGIN" className='navbar-button'>LOGIN</Link>
+                <div className='navbar-button'>MY PAGE</div>
             </div>
         </div>
     );
 };
 
-export default Navbar;
+export default HomeNavbar;
