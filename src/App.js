@@ -16,6 +16,8 @@ import { MatchingList } from './page/MatchingList';
 import { SignUp } from './page/SignUp';
 import SignComplete from './page/SignComplete';
 import Profile from './page/Profile';
+import Menu from './page/Menu';
+import MyHistoryPage from './page/MyHistoryPage';
 
 function App() {
   return (
@@ -32,9 +34,9 @@ function App() {
           <Route path="/card" element={<Card />} />
           <Route path="/matching-list" element={<MatchingList />} />
         </Routes> */}
-        {/* <SignUp/> */}
         {/* <SignComplete/> */}
-        <Profile/>
+        {/* <Profile/> */}
+        <MyHistoryPage/>
       </div>
     </Router>
   );

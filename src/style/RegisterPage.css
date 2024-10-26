@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Inter;
+    src: url("../../public/fonts/Inter_18pt-Regular.ttf");
+}
 .app-background {
     background: linear-gradient(to bottom, #ffffff, #e0f7ff); /* 윗부분 하얀색, 아래로 갈수록 연한 파란색 */
     min-height: 100vh;
@@ -8,7 +12,10 @@
     color:#a0a0a0;
     
   }
-
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
 .no-border {
     border: none; /* fieldset 테두리 제거 */
     margin: 30px 0 0 0; /* 가운데 정렬 */
@@ -16,10 +23,6 @@
     align-items: center;
     flex-direction: column;
     display: flex;
-}
-@font-face {
-    font-family: Inter;
-    src: url("../../public/fonts/Inter_18pt-Regular.ttf");
 }
 .register-text {
     text-align: center; /* legend 텍스트 가운데 정렬 */
@@ -108,7 +111,9 @@
     margin-top: 30px;
     display: flex;
     width: 723.8px;
-}
+    
+} 
+
 @font-face {
     font-family: "Inter_bold";
     src: url("../../public/fonts/Inter_24pt-SemiBold.ttf");
@@ -138,7 +143,7 @@
 .phone-input{
     display: block;
     margin: 17px 0;
-    width: 354px;
+    width: 387px;
     height: 70px;
     border-radius: 100px;
     background-color: #fcfcfc;
@@ -156,31 +161,58 @@
     font-size: 20px;
     font-family: "Inter";
 }
-.birth-input{
+.register-nickname-label{
+    position: absolute;
+    top: -15px; 
+    left: 480px; 
+    padding: 0 5px;
+    font-size: 20px;
+    font-family: "Inter";
+}
+.register-nickname-input{
     display: block;
-    margin: 17px 109px 17px 0;
-    width: 300px;
+    margin: 17px 0; 
+    width: 209px;
+    height: 70px;
+    border-radius: 100px;
+    background-color: #fcfcfc;
+    border: 3px solid #e0e0e0;
+    padding: 0 10px 0 10px;
+    font-size: 20px;
+    font-family: "Inter";
+}
+.sex-label{
+    position: absolute;
+    top: -15px; /* 입력 필드 위로 위치 조정 */
+    left: 260px; /* 입력 필드 왼쪽으로 위치 조정 */
+    padding: 0 5px;
+    font-size: 20px;
+    font-family: "Inter";
+}
+.sex-input{
+    display: block;
+    margin: 17px 43px 0 0;
+    width: 158px;
     height: 70px;
     border-radius: 100px;
     background-color: #fcfcfc;
     border: 3px solid #e0e0e0;
     padding-left: 25px;
     font-size: 20px;
-    font-family: "Inter_bold";
+    font-family: "Inter";
 }
-.nickname-label{
+.room-label{
     position: absolute;
     top: -15px; /* 입력 필드 위로 위치 조정 */
-    left: 445px; /* 입력 필드 왼쪽으로 위치 조정 */
-    background: white; /* 배경 설정 */
+    left: 25px; /* 입력 필드 왼쪽으로 위치 조정 */
     padding: 0 5px;
     font-size: 20px;
     font-family: "Inter";
 }
-.nickname-input{
+.room-input{
     display: block;
-    margin: 17px 0;
-    width: 285px;
+    margin: 17px 42px 0 0;
+    width: 158px;
     height: 70px;
     border-radius: 100px;
     background-color: #fcfcfc;
@@ -198,7 +230,6 @@
     background-color: #4278e4;
     color: #ffffff;
     font-size: 20px;
-    padding: 0 10px 0 10px;
     border: none;
     cursor: pointer;
     font-family: "Inter";

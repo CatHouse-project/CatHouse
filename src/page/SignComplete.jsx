@@ -20,7 +20,7 @@ const SignComplete = () => {
                     <div className='register-text'>회원가입 완료!</div>
                     <div className='explanation-text'>
                         나의 소울&룸메이트 찾기,
-                        <br/>
+                        <br/> 
                         CatHouse와 시작해요!
                     </div>
                 </div>
