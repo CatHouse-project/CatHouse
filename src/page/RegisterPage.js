@@ -59,7 +59,7 @@ const RegisterPage = () => {
                             <label className='register-nickname-label'>닉네임</label>
                             <input type='text' placeholder='닉네임을 입력해주세요' className='register-nickname-input'
                                 value={nickname} onChange={onChangeNickname} />
-                            <label className='register-nickname-label'>생일</label>
+                            <label className='register-birth-label'>생일</label>
                             <input type='text' placeholder='생일을 입력해주세요' className='register-nickname-input'
                                 value={birth} onChange={onChangeBirth} />
                         </div>

@@ -164,15 +164,23 @@
 .register-nickname-label{
     position: absolute;
     top: -15px; 
-    left: 480px; 
+    left: 280px; 
+    padding: 0 5px;
+    font-size: 20px;
+    font-family: "Inter";
+}
+.register-birth-label{
+    position: absolute;
+    top: -15px; 
+    left: 510px; 
     padding: 0 5px;
     font-size: 20px;
     font-family: "Inter";
 }
 .register-nickname-input{
     display: block;
-    margin: 17px 0; 
-    width: 209px;
+    margin: 17px 5px 0 0; 
+    width: 200px;
     height: 70px;
     border-radius: 100px;
     background-color: #fcfcfc;
@@ -184,15 +192,15 @@
 .sex-label{
     position: absolute;
     top: -15px; /* 입력 필드 위로 위치 조정 */
-    left: 260px; /* 입력 필드 왼쪽으로 위치 조정 */
+    left: 160px; /* 입력 필드 왼쪽으로 위치 조정 */
     padding: 0 5px;
     font-size: 20px;
     font-family: "Inter";
 }
 .sex-input{
     display: block;
-    margin: 17px 43px 0 0;
-    width: 158px;
+    margin: 17px 10px 0 0;
+    width: 80px;
     height: 70px;
     border-radius: 100px;
     background-color: #fcfcfc;
@@ -204,15 +212,15 @@
 .room-label{
     position: absolute;
     top: -15px; /* 입력 필드 위로 위치 조정 */
-    left: 25px; /* 입력 필드 왼쪽으로 위치 조정 */
+    left: 15px; /* 입력 필드 왼쪽으로 위치 조정 */
     padding: 0 5px;
     font-size: 20px;
     font-family: "Inter";
 }
 .room-input{
     display: block;
-    margin: 17px 42px 0 0;
-    width: 158px;
+    margin: 17px 10px 0 0;
+    width: 100px;
     height: 70px;
     border-radius: 100px;
     background-color: #fcfcfc;
