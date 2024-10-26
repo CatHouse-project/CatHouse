@@ -77,7 +77,7 @@ export const MatchingQSubmit = () => {
           ))}
         </div>
         <AfterLoginNavbar />
-        {/* <button className="next-button-style" onClick={HandleButtonToSelect}>다음</button> */}
+        <button className="next-button-style" onClick={HandleButtonToSelect}>다음</button>
       </div>
     </div>
   );

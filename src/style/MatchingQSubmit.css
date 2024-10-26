@@ -163,7 +163,7 @@
   border-radius: 10px;
 }
 /* 다음 버튼이 없는거 같아서 일단은 만들어놨습니다 필요없으면 지우셔도됩니다!*/
-/* .next-button-style{
+.next-button-style{
   width: 176px;
   height: 46px;
   background-color: #000000;
@@ -176,4 +176,4 @@
   bottom: 63px;
   right: 155px;
   cursor: pointer;
-} */
+}

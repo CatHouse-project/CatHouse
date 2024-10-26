@@ -93,15 +93,79 @@
     top: 38px;
   }
   
-  .matching-card .div-wrapper {
+  .matching-card .div-wrapper1 {
     background-color: #4177e3;
     border-radius: 100px;
     height: 65px;
-    left: 40px;
+    left: 80px;
     position: absolute;
-    top: 156px;
+    top: 430px;
     width: 359px;
   }
+  .matching-card .div-wrapper2 {
+    background-color: #4177e3;
+    border-radius: 100px;
+    height: 65px;
+    left: 550px;
+    position: absolute;
+    top: 430px;
+    width: 359px;
+  }
+  .matching-card .div-wrapper3 {
+    background-color: #4177e3;
+    border-radius: 100px;
+    height: 65px;
+    left: 1020px;
+    position: absolute;
+    top: 430px;
+    width: 359px;
+  }
+  .matching-card .div-wrapper4 {
+    background-color: #4177e3;
+    border-radius: 100px;
+    height: 65px;
+    left: 1490px;
+    position: absolute;
+    top: 430px;
+    width: 359px;
+  }
+  .matching-card .div-wrapper5 {
+    background-color: #4177e3;
+    border-radius: 100px;
+    height: 65px;
+    left: 90px;
+    position: absolute;
+    top: 770px;
+    width: 359px;
+  }
+  .matching-card .div-wrapper6 {
+    background-color: #4177e3;
+    border-radius: 100px;
+    height: 65px;
+    left: 540px;
+    position: absolute;
+    top: 770px;
+    width: 359px;
+  }
+  .matching-card .div-wrapper7 {
+    background-color: #4177e3;
+    border-radius: 100px;
+    height: 65px;
+    left: 1010px;
+    position: absolute;
+    top: 770px;
+    width: 359px;
+  }
+  .matching-card .div-wrapper8 {
+    background-color: #4177e3;
+    border-radius: 100px;
+    height: 65px;
+    left: 1470px;
+    position: absolute;
+    top: 770px;
+    width: 359px;
+  }
+  
   
   .matching-card .text-wrapper-5 {
     color: #ffffff;
