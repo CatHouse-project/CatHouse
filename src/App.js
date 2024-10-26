@@ -18,6 +18,7 @@ import SignComplete from './page/SignComplete';
 import Profile from './page/Profile';
 import Menu from './page/Menu';
 import MyHistoryPage from './page/MyHistoryPage';
+import { Select } from './page/Select';
 
 function App() {
   return (
@@ -32,8 +33,10 @@ function App() {
           <Route path="/loading" element={<Loading />} />
           <Route path="/loading-success" element={<LoadingSuccess />} />
           <Route path="/card" element={<Card />} />
+          <Profile/>
           <Route path="/matching-list" element={<MatchingList />} />
         </Routes>
+        <Select/>
       </div>
     </Router>
   );

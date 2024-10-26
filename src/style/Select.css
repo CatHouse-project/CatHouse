@@ -1,0 +1,119 @@
+.matching-q-select {
+    background: linear-gradient(180deg, rgb(241, 241, 241) 0%, rgb(216, 229, 240) 100%);
+    background-color: rgba(255, 255, 255, 1.0);
+    height: 1080px;
+    position: relative;
+    width: 1920px;
+}
+
+.matching-q-select .overlap-group {
+    background-color: #ffffff;
+    border-radius: 25px;
+    box-shadow: 0px 0px 8.2px #00000040;
+    height: 769px;
+    left: 651px;
+    position: absolute;
+    top: 173px;
+    width: 1164px;
+}
+
+.matching-q-select .question-group {
+    height: 97px;
+    width: 1066px;
+    padding: 3%;
+}
+
+.matching-q-select .text-question-wrapper {
+    display: flex;
+    align-items: center; /* 중앙 정렬 */
+    width: 100%; /* 전체 너비를 사용 */
+}
+
+.matching-q-select .text-question{
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 36px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: normal;
+    width: 80%;
+    text-align: left;
+}
+
+.matching-q-select .custom-checkbox{
+    width: 20%;
+    text-align: right;
+}
+
+.matching-q-select .text-question-wrapper .checkbox {
+    cursor: pointer; 
+    
+}
+
+.matching-q-select .custom-checkbox input[type="checkbox"] {
+    display: none; 
+}
+.matching-q-select .custom-checkbox label {
+    background-color: #d9d9d9; 
+    width: 36px;
+    height: 36px;
+    cursor: pointer; 
+    display: inline-block; 
+}
+
+.matching-q-select .custom-checkbox input[type="checkbox"]:checked + label {
+    background-color: #4177E3; 
+}
+
+
+
+
+.matching-q-select .overlap-text {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 48px;
+    font-weight: 600;
+    left: 74px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 350px;
+}
+
+.matching-q-select .overlap-text2 {
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 48px;
+    font-weight: 500;
+    left: 74px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 422px;
+}
+
+.matching-q-select .overlap-text3 {
+    color: #000000;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 36px;
+    font-weight: 500;
+    left: 74px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 632px;
+}
+
+
+
+
+.matching-q-select .overlap {
+    background-color: #ffffff4c;
+    border: 1px solid #b1b1b1;
+    border-radius: 100px;
+    height: 771px;
+    left: 1831px;
+    position: absolute;
+    top: 172px;
+    width: 27px;
+}
