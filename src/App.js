@@ -16,13 +16,15 @@ import { MatchingList } from './page/MatchingList';
 import { SignUp } from './page/SignUp';
 import SignComplete from './page/SignComplete';
 import Profile from './page/Profile';
+import Menu from './page/Menu';
+import MyHistoryPage from './page/MyHistoryPage';
 import { Select } from './page/Select';
 
 function App() {
   return (
     <Router>
       <div>
-        {/* <Routes>
+        <Routes>
           <Route path="/" element={<MainHeader />} />
           <Route path="/login" element={<LoginPage />} />
           <Route path="/register" element={<RegisterPage />} />
@@ -33,12 +35,8 @@ function App() {
           <Route path="/card" element={<Card />} />
           <Profile/>
           <Route path="/matching-list" element={<MatchingList />} />
-        </Routes> */}
-        {/* <SignUp/> */}
-        {/* <SignComplete/> */}
-
+        </Routes>
         <Select/>
-        
       </div>
     </Router>
   );

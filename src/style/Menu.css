@@ -1,0 +1,114 @@
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+@font-face {
+    font-family: AppleGodic;
+    src: url("../../public/fonts/AppleSDGothicNeoB00.ttf");
+}
+@font-face {
+    font-family: Inter;
+    src: url("../../public/fonts/Inter_28pt-Bold.ttf");
+}
+@font-face {
+    font-family: Pretendard ;
+    src: url("../../public/fonts/PretendardVariable.ttf");
+}
+  .header-button{
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    color: inherit;
+    cursor: pointer;
+    font-family: "AppleGodic";
+    font-size: 24px;
+}
+.header-style{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px 10px 40px;
+    box-sizing: border-box;
+}
+.header-gap{
+    gap: 3vw;
+    display: flex;
+}
+.background-color{
+    /* background: linear-gradient(to bottom, #ffffff, #e0f7ff);  */
+      background: linear-gradient(
+      180deg,
+      rgb(241, 241, 241) 0%,
+      rgb(216, 229, 240) 100%
+    );
+    padding: 0;
+}
+.menu-box{
+    width: 632px;
+    height: 390px;
+    background-color: #ffffff;  
+    border-radius: 25px; 
+    box-shadow: 0 0 8.2px rgba(0,0,0,0.25);
+    position: absolute;
+    left: 644px ;
+    top: 345px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.menu-cathouse{
+    position: absolute;
+    left: 850px;
+    top: 251px;
+    font-family: "Pretendard";
+    font-size: 48px;
+    font-weight: 400;
+}
+.menu-text{
+    /* font-family: "Inter"; */
+    font-size: 24px;
+    font-weight: 400;
+    position: absolute;
+    left: 279px;
+    top: 40px;
+}
+.find-roomate-button{
+    width: 558px;
+    height: 63px;
+    background-color: #ffffff;
+    border: 2px solid #d7d7d7;
+    position: absolute;
+    left: 37px;
+    top: 106px;
+    border-radius: 25px;
+    font-family: "AppleGodic";
+    font-size: 24px;
+    cursor: pointer;
+}
+.my-request-button{
+    width: 558px;
+    height: 63px;
+    background-color: #ffffff;
+    border: 2px solid #d7d7d7;
+    position: absolute;
+    left: 37px;
+    top: 193px;
+    border-radius: 25px;
+    font-family: "AppleGodic";
+    font-size: 24px;
+    cursor: pointer;
+}
+.receive-request-button{
+    width: 558px;
+    height: 63px;
+    background-color: #ffffff;
+    border: 2px solid #d7d7d7;
+    position: absolute;
+    left: 37px;
+    top: 276px;
+    border-radius: 25px;
+    font-family: "AppleGodic";
+    font-size: 24px;
+    cursor: pointer;
+}
