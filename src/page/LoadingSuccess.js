@@ -1,6 +1,8 @@
 import React from "react";
 import loading_heart from '../images/loading_heart.png';
 import "../style/LoadingSuccess.css"
+import AfterLoginNavbar from "../components/AfterLoginNavbar";
+import { Link } from "react-router-dom";
 
 export const LoadingSuccess = () => {
   return (
@@ -21,15 +23,12 @@ export const LoadingSuccess = () => {
           alt="Element"
           src={loading_heart}
         />
-        <div className="div-wrapper">
-          <div className="text-wrapper-3">확인</div>
-        </div>
-        <div className="navbar">
-          <div className="text-wrapper-4">HOME</div>
-          <div className="text-wrapper-5">LOGOUT</div>
-          <div className="text-wrapper-6">MY PAGE</div>
-          <div className="text-wrapper-7">MENU</div>
-        </div>
+        <Link to={'/send-list'}>
+          <div className="div-wrapper">
+            <div className="text-wrapper-3">확인</div>
+          </div>
+        </Link>
+        <AfterLoginNavbar/>
       </div>
     </div>
   );

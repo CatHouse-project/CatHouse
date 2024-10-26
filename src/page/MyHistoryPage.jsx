@@ -1,19 +1,11 @@
 import React from 'react';
 import '../style/MyHistoryPage.css'
+import AfterLoginNavbar from '../components/AfterLoginNavbar';
 
 const MyHistoryPage = () => {
     return (
         <div className='background-color1'>
-             <div className='header-style'>
-                    <div className='header-gap'>
-                        <button className='header-button'>Home</button>
-                        <button className='header-button'>MENU</button>
-                    </div>
-                    <div className='header-gap'>
-                        <button className='header-button'>LOGOUT</button>
-                        <button className='header-button'>MY PAGE</button>
-                    </div>
-            </div>
+             <AfterLoginNavbar/>
             <div className='align-center'>
                 <span className='MYHISTORY-text'>MY HISTORY</span>
                 <span className='show-roomate-text'>그동안 김감자님과 함께한 룸메이트에요</span>

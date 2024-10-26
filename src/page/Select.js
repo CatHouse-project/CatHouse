@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import "../style/Select.css";
+import AfterLoginNavbar from "../components/AfterLoginNavbar";
 
 export const Select = () => {
   return (
@@ -31,7 +32,7 @@ export const Select = () => {
         ))}
       </div>
 
-      <Navbar />
+      <AfterLoginNavbar />
     </div>
   );
 };

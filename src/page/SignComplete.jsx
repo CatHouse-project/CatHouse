@@ -1,19 +1,16 @@
 import React from 'react';
 import "../style/SignComplete.css";
 import registerHeart from "../images/register_heart.png"
+import AfterLoginNavbar from '../components/AfterLoginNavbar';
+import { useNavigate } from 'react-router-dom';
 const SignComplete = () => {
+    const navigate = useNavigate();
+    const HandleButtonToSubmit=()=>{
+        navigate('/matching-submit');
+    }
     return (
         <div className='background-color'>
-            <div className='header-style'>
-                <div className='header-gap'>
-                    <button className='header-button'>Home</button>
-                    <button className='header-button'>MENU</button>
-                </div>
-                <div className='header-gap'>
-                    <button className='header-button'>LOGOUT</button>
-                    <button className='header-button'>MY PAGE</button>
-                </div>
-            </div>
+            <AfterLoginNavbar/>
             <div className='align-center'>
                 <img src={registerHeart} alt="ERROR" className='image-position' />
                 <div className='white-box'>
@@ -24,7 +21,7 @@ const SignComplete = () => {
                         CatHouse와 시작해요!
                     </div>
                 </div>
-                <button className='findMate-button'>룸메이트 찾으러 가기</button>
+                <button className='findMate-button' onClick={HandleButtonToSubmit}>룸메이트 찾으러 가기</button>
             </div>
 
         </div>

@@ -1,18 +1,11 @@
 import React from 'react';
 import '../style/SignUp.css';
+import Navbar from '../components/Navbar';
 
 export const SignUp = () => {
     return (
         <div className='login-sign-up'>
-            <div className='header-style'>
-                <div className='header-gap'>
-                    <button className='header-button'>Home</button>
-                    <button className='header-button'>MENU</button>
-                </div>
-                <div className='header-gap'>
-                    <button className='header-button'>MY PAGE</button>
-                </div>
-            </div>
+            <Navbar/>
 
             
             <div className="overlap-group">
