@@ -10,7 +10,7 @@ const Menu = () => {
             <div className="menu-cathouse">CatHouse</div>
             <div className="menu-box">
                 <div className="menu-text">MENU</div>
-                <button className="find-roomate-button">룸메이트 찾기</button>
+                <Link to={'/card'}><button className="find-roomate-button">룸메이트 찾기</button></Link>
                 <Link to={'/send-list'}><button className="my-request-button">내가 보낸 신청</button></Link>
                 <Link to={'/matching-list'}><button className="receive-request-button">내가 받은 신청</button></Link>
             </div>
